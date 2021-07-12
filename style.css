@@ -193,3 +193,37 @@ margin-bottom: 30px;
        width: 100%;
    }
 }
+/*tablat*/
+@media only screen and (min-width: 600px) and (max-width:992px) {
+
+    .players, .allairtical, .full-cources{
+        
+        grid-template-columns: repeat(2,1fr);
+        flex-direction: column;
+       
+        
+        width: auto;
+        
+    }
+    
+    body{
+        width: 100%;
+    }
+    .allairtical{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .airtical{
+        
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+    }
+   .container{
+       width: 100%;
+   }
+   .third-part{
+       width: 100%;
+   }
+}
