@@ -1,0 +1,191 @@
+body{
+  
+  font-family: 'Poppins', sans-serif;
+  background-color: #F3F1FF;
+  font-weight: 500;
+ 
+
+}
+
+
+main{
+    justify-content: center;
+    
+    flex-direction: column;
+}
+
+/*players datiles*/
+.section-title{
+ color: #562EFF; 
+ margin: 30px 0px; 
+Weight :500;
+margin-top: 3px;
+
+Size: 24px;
+Line height :36px;
+
+}
+.container{
+    background-color: white;
+    width: 780px;
+    justify-content: center;
+    padding:30px;
+    margin: 0 auto;
+
+    
+}
+.players{
+    
+    display: grid;
+    grid-row-gap: 30px;
+   
+    
+    grid-template-columns: repeat(3,1fr);
+    
+    
+    
+}
+.player{
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+.player img{
+    height: 56px;
+    width: 56px;
+}
+.playername{
+    margin-left: 16px;
+    font-size: 18px;
+
+}
+hr{
+    
+border: 1px solid #D1D1D1;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.top-blogs{
+    color: #562EFF;
+    font-size: 24px;
+    margin: 0px 0px 30px 0px;
+}
+.allairtical{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap:26px ;
+    grid-column-gap: 79px;
+}
+.airtical img{
+    Width: 224px;
+    Height: 127px;
+    Top :497px;
+    Left: 287px;
+}
+.airtical h3{
+    font-size:  16px;
+    Line height: 34px;
+
+    
+}
+.airtical{
+    display: flex;
+    align-items: center;
+}
+.athor{
+    color: #9F9F9F;
+}
+.airtical-heading{
+        margin-left: 18px;
+}
+.airtical p a{
+    
+    color: #562EFF;
+    text-decoration: none;
+}
+.third-part{
+   
+    background-color: rgb(255, 255, 255);
+    width: 780px;
+    justify-content: center;
+    padding:30px;
+    margin: 0 auto;
+}
+.full-cources{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+}
+.cource img{
+    width: 250px;
+    
+}
+
+.cource-title h5{
+    font-size: 20px;
+    margin: 0;
+    font-weight: 500;
+
+}
+.cource-datiles{
+    display: flex;
+    align-items: center;
+}
+.cource-title h6{
+    font-size: 14px;
+    margin: 0;
+    font-weight: 200;
+}
+.cource-datile-rating i{
+    color: #FFC014;
+    font-size: 11px;
+}
+.cource-datile-rating{
+    margin-right: 7px;
+}
+.emty{
+    color: #AEAEAE;
+}
+.name{
+    color: #562EFF;
+}
+.time{
+    background-color:#ff4a5f46; ;
+    color: #FF4A60;
+    border-radius:15px;
+   
+    padding: 3px;
+    margin-left: 7px;
+    
+}
+/*media quary*/
+/*mobile */
+@media only screen and (max-width:688px){
+    .players, .allairtical, .full-cources{
+        
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        
+    }
+    body{
+        width: 100%;
+    }
+    .allairtical{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .airtical{
+        
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+    }
+   .container{
+       width: 100%;
+   }
+}
